@@ -9,9 +9,16 @@ results = 10
 # Since TikTok changed their API you need to use the custom_verifyFp option. 
 # In your web browser you will need to go to TikTok, Log in and get the s_v_web_id value.
 trending = api.trending(count=10, custom_verifyFp="")
-
+'''
 for tiktok in trending:
     # Prints the hashtag info of trending tiktoks
-    print(tiktok['textExtra'])
+    for d in tiktok["textExtra"]:
+        hashtags.append(d["hashtagName"])
+    print(hashtags)
+
+'''
+for tiktok in trending:
+    # Prints the text of the tiktok
+    print(tiktok["textExtra"])
 
 print(len(trending))
