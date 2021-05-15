@@ -45,11 +45,7 @@ Create a new file called ".env" in the root directory of this repo, and paste th
 SENDGRID_API_KEY="_______________"
 SENDER_EMAIL_ADDRESS="_______________"
 
-# optional vars:
-#APP_ENV="development"
-#COUNTRY_CODE="US"
-#ZIP_CODE="10017"
-#USER_NAME="Jon Snow"
+
 ```
 
 ## Usage
