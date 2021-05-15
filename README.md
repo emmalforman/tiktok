@@ -22,6 +22,12 @@ conda activate tiktok-env
 Then, within an active virtual environment, install package dependencies:
 
 ```sh
+pip install -r requirements.txt
+```
+
+Then, within an active virtual environment, install package dependencies:
+
+```sh
 pip install TikTokApi
 python -m playwright install
 ```
