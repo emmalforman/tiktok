@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Project 1: TikTok</title>
+</head>
+<body>
+
+  <!-- SITE NAVIGATION -->
+  <div class="container">
+    <nav>
+      <h1><a href="/">My Web App</a></h1>
+      <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/hello">Hello</a></li>
+      </ul>
+    </nav>
+    <hr>
+
+    <!-- PAGE CONTENTS -->
+    <div id="content">
+      {% block content %}
+      {% endblock %}
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <hr>
+      &copy; Copyright 2021 | Emma Forman |
+      <a href="https://github.com/emmalforman/tiktok">Source</a> |
+      <a href="https://www.emmaforman.com">Personal Website</a>
+    </footer>
+  </div>
+
+</body>
+</html>
