@@ -1,4 +1,6 @@
 from TikTokApi import TikTokApi
+import os
+from app import APP_ENV
 
 api = TikTokApi.get_instance()
 # If playwright doesn't work for you try to use selenium
