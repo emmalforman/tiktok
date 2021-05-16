@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from flask import Flask
 
 from web_app.routes.home_routes import home_routes
+from web_app.routes.tiktok_routes import tiktok_routes
 
 load_dotenv()
 
