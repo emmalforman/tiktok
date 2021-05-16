@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Project 1: TikTok</title>
+<title>Project 1: TikTok</title>
 <style>
-  a:link, a:visited {
+    a.button:link, a.button:visited {
     background-color:black;
     color: white;
     padding: 7px 7px;
@@ -12,21 +12,25 @@
     display: inline-block;
   }
   
-  a:hover, a:active {
+    a.button:hover, a.button:active {
     background-color: black;
   }
+    ul{list-style:none;}
+    ul > li{display: inline-block;}
   </style>
 </head>
 <body>
 
   <!-- SITE NAVIGATION -->
-  <div class="container">
-    <nav>
-      <h1 style="background-color: powderblue;" style="font-size: large;" style="color: black;"><a href="/"><h1 style="text-align:center;">Project 1: TikTok</a></h1>
+  <div style="text-align:center" class= "container">
+    <nav style="background-color: powderblue" >
       <ul>
-          <h2 style="color: black;" style="font-size: medium;" style="align-items: right;"> <a href="/about" target="_blank">About </a></h2>
-            <h2 style="color: black;"> <a href="/hello">The App </a></h2>
-      </ul>
+          <li>
+          <h1 style="color: black;"> <a class= "button" href="/home"> Project 1: TikTok </a></h1>
+          </li>
+          <li style="padding-right:1rem; padding-left:1rem" ><h2 style="color: black;" style="font-size: medium;"> <a class= "button" href="/about" target="_blank">About </a></h2></li>
+          <li><h2 style="color: black;"> <a class= "button" href="/hello">The App </a></h2></li>
+        </ul>
     </nav>
     <hr>
 
