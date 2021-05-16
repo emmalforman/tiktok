@@ -13,5 +13,4 @@ for tiktok in trendingMusic:
 trendingChallenges = api.discoverHashtags()
 
 for tiktok in trendingChallenges:
-    print(tiktok)
-    breakpoint()
+    
