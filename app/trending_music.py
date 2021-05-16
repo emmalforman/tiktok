@@ -11,10 +11,9 @@ results = 1
 # In your web browser you will need to go to TikTok, Log in and get the s_v_web_id value.
 trending = api.trending(count=1, custom_verifyFp="")
 
-def get_trending():
+def get_trending_music():
     for tiktok in trending:
         # Prints the hashtag info of trending tiktoks
-        for d in tiktok["textExtra"]:
-            print(d['hashtagName'])
-
-print(get_trending())
+        for m in tiktok["challenges"]:
+            print(m)
+print(get_trending_music())
