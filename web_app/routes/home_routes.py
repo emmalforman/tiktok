@@ -15,7 +15,7 @@ def about():
     print("ABOUT...")
     return render_template("about.html")
 
-@home_routes.route("/app")
+@home_routes.route("/tiktok")
 def app():
-    print("APP...")
-    return render_template("app.html")
+    print("HELLO...")
+    return render_template("tiktok.html")
