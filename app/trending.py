@@ -17,4 +17,4 @@ def get_trending():
         for d in tiktok["textExtra"]:
             print(d['hashtagName'])
 
-print(get_trending())
+output = get_trending()
