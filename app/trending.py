@@ -12,9 +12,11 @@ results = 1
 trending = api.trending(count=1, custom_verifyFp="")
 
 def get_trending():
+    hashtags= []
     for tiktok in trending:
         # Prints the hashtag info of trending tiktoks
         for d in tiktok["textExtra"]:
-            print(d['hashtagName'])
-
+           # print(d['hashtagName'])
+            hashtags.append(d['hashtagName'])
+    return hashtags
 output = get_trending()
