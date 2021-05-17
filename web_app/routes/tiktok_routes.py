@@ -2,7 +2,7 @@
 
 from flask import Blueprint, request, jsonify, render_template, redirect, flash
 from TikTokApi import TikTokApi
-import os
+from app.trending import get_trending
 
 tiktok_routes = Blueprint("tiktok_routes", __name__)
 

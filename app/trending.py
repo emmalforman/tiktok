@@ -1,5 +1,6 @@
 from TikTokApi import TikTokApi
 import os
+import trending.py from app
 
 api = TikTokApi.get_instance()
 # If playwright doesn't work for you try to use selenium
