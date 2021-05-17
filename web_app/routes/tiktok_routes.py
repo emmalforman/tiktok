@@ -9,5 +9,6 @@ tiktok_routes = Blueprint("tiktok_routes", __name__)
 @tiktok_routes.route("/tiktok")
 def app():
     print("HELLO...")
-    output= jsonify(get_trending())
+    output= get_trending()
+    print(output)
     return render_template("tiktok.html", output=output)
