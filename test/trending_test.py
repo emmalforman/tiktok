@@ -1,5 +1,6 @@
 import os
 import pytest
+from TikTokApi import TikTokApi
 
 from app.trending import get_trending
 
