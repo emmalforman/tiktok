@@ -8,6 +8,8 @@ python-dotenv
 pgeocode
 pandas
 requests
+TikTokApi
+playwright
 
 Flask
 gunicorn
